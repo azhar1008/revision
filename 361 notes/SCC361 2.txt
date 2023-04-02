@@ -1,0 +1,196 @@
+361 Week 2
+
+Lecture 1 {
+	
+	Definition of AI {
+	
+		Field that studies the synthesis and analysis of computational agents that act rationally
+	
+		Definition of Computational Agent = Agent whose decisions and actions can be explained in terms of computation
+		
+		Definition of Agent = Something that acts within an environment
+	}
+	
+	
+	Goals {
+		
+		Scientific vs Engineering Goals
+		
+		Uses general scientific approach
+		
+		Focuses on empirical systems not applications
+		
+	}
+	
+	Benefits {
+		
+		Business and Social
+			
+		Business
+			Process Automation
+			Enhance creative tasks
+			Increased accuracy
+			Better predictions and improved decisions
+		
+		Social
+			Healthcare
+			Smart cities
+			Forecasts and predictions
+			Agriculture
+			Overall Lifestyle
+	}
+	
+	Risks {
+		
+		Safety and Security
+		Trust and Social Manipulation
+		Explainability
+		Job Loss
+		Accountability
+		Accuracy, bias, privacy and inequality
+		Human biases and prejudices
+		Technological Social Responsibility
+		
+	}
+	
+	
+	
+	Features in Machine Learning {
+	
+		Machine Learning models dependent on data
+		Machine Learning algorithms designed to understand numbers
+		
+		
+		Feature = Individual measurable property or characteristic of a phenomenon being observed
+				  A set of features represent the information you can draw from data
+		
+		Label = Tag you wish to assign to a set of features
+		
+		Feature Vector = Numeric | Symbolic characteristics called features of an object in a mathematical analysable way
+		
+		Training:
+		
+			Data -> Features and Labels -> Machine Learning Algorithm -> Predictive Model
+		
+		New:
+		
+			Data -> Features Vector -> Predictive Model -> Expected Label
+	}
+	
+	Feature Extraction {
+		
+		Definition = Set of methods that map input features to output features
+		
+		Any technique that transform raw data into features that can be used as input to a learning algorithm
+		
+		Process of transforming raw data into numerical features that can be processed while preserves the information in the original data set
+		
+		
+		Raw Signal - > Preprocessing -> Features Extracted -> Classifier -> Output
+		
+		Learning algorithms prefer numeric data
+		Real World data is often non-numeric
+		Real World data mostly unstructured
+		Increase learning accuracy by extracting most significant features
+		
+		Approaches {
+			
+			Manual:
+				Manually identifying and describing relevant features
+				Requires knowledge
+			
+			Automated:
+				Uses specialised algorithms with no human intervention
+				More efficient
+				
+		}
+		
+		Feature Vector = Collection of features and their labels | New encoding of image
+		
+		Feature Extraction from Images {
+			
+			Detects and represents the interesting parts of an image as a compact feature vector
+			Critical step in image processing and computer vision
+			
+		}
+		
+		Good Feature {
+		
+			+ Repeatable
+				Should be detectable at same location in different images despite changes in viewpoint and illumination
+			
+			+ Saliency
+				Descriptive
+				Same points in different images should have similar features
+				
+			+ Compactness
+				Affect speed of matching
+				Fewer and smaller features are best
+			
+		}
+	}
+}
+
+Lecture 2 {
+
+	Image = Array of Pixels
+
+	Pixel Values can be extracted as feature vector representation for images
+	
+	Real World <=> Computations
+	
+	Real World : Continuous Space
+				-Infinity to Infinity
+				Theory
+				
+	Computations : Discrete Space
+				Grid
+				Practice
+	
+	Computer Vision Theory:
+		View Image as Function
+		u: Z x Z -> R = pixel rows and columns -> intensity values
+		
+		View Video as Function
+		u: Z x Z x Z -> R = pixel rows and columns, frame -> intensity values
+	
+		mesh(im(:,:,1))
+	
+	Edge Detection: Curve that follows a path of rapid change in image intensity
+		Used to identify edges in an image
+		Canny filter is best known => Gradients
+	
+	// TODO:
+	
+	CW = Create Edge Detector
+	
+	Fully zoned out for the rest sorry bro
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

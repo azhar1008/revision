@@ -1,0 +1,167 @@
+311 Week 1
+
+Lecture 1 - Introduction {
+	
+	
+	What is a distributed system? {
+	
+		Definition = Systems distributed amongst multiple computers to complete a task
+		- They have to exist over multiple computers
+		
+		System = Collection of hardware and software components
+		Main aim is to run applications
+		
+		CPU uses Instructions
+		Instructions come from storage
+		CPU communicates with storage using a bus
+		CPU > Storage Device (Speed)
+		
+		Memory Hierarchy = + Smaller, Faster and more Expensive
+			Regs
+			L1 
+			L2
+			L3
+			Main
+			Local Second
+			Remote Second
+		
+		Definitions:
+		- Collection of independent computers that appear as a single system
+		- Hardware or Software components located at networked computers communicate and coordinate by message passing
+		- One that stops you getting work doen when a machine you've never heard of crashes
+		- Compromises of <1 computer with goal of reaching level of performance or provide service that is difficult or infeasible with one single computer
+		
+		Examples:
+		- Web Search = Billions of web pages, mostly dynamic
+			Periodically store and process these pages
+			Main challenge is reponse time for huge amounts of data
+			+ Use heavy parallelisation
+		- Financial Trading = Runs trading algorithm
+		- MMOs = Online games with large amounts of users
+		
+		
+		
+	}
+	
+	Why Distributed Systems? {
+		
+		World is distributed in its actions
+		
+		Problems rarely hit two different places at once
+		
+		Joining forces increases performance, availability, etc
+	}
+	
+	Interactions {
+		Web : Client and Server
+		
+	}
+}
+
+Lecture 2 {
+	Remote Invocation = Invoking a piece of code remotely
+	
+	DS => Choose least reliable protocol you need
+	
+	Protocol Styles {
+
+									Client	Server	Client
+		Request (R) 				Request 
+		Request Reply (RR)			Request	Reply
+		RR Acknowledgement (RRA)	Request	Reply	A
+	}
+	
+	Client {
+	
+	
+		Define Packet Format
+			Header
+			Message Type
+			Payload Size
+		
+		Connect to remote computer
+		Send generic message header
+		Send operation specific data
+		Clean Up
+	
+	}
+	
+	Server {
+		
+		Prepare to receive client connections
+		Receive generic message header
+		Receive operation specific data
+		Do something
+		
+	}
+	
+	RPC {
+		
+		Remote Procedure Call = Middleware
+		
+		Implements interface remotely
+		
+		
+		Server Side {
+			Receives incoming messages and direct them to an appropriate server stub
+			
+			Server stub = skeletons
+				Unmarshalls message and then invokes code body
+				
+		}
+		
+		Local vs Remote {
+			
+			Latency is highly variable
+			Memory access models are different if we pass references around
+			Partial failures possible
+			
+		}
+	}
+	
+	RMI {
+		Remote Method Invocation = Java built in middleware
+		
+	}
+	
+}
+
+Key Points {
+	
+	Built off of concurrency
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

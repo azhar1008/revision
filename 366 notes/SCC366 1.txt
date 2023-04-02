@@ -1,0 +1,249 @@
+SCC366 Week 1 {
+	
+	Learning Objectives {
+		Gain Understanding of
+			- Media Coding: How Media are encoded within the digital domain
+			- Media Processing: How additional information can be generated through processing images and videos
+			- Core Concept = Emerging technologies in media processing
+
+		Module Overview
+			- Image Processing
+			- Image Coding (hiding information in image e.g. watermark)
+				Compression
+			- Video Coding and Analysis
+				Motion Estimation
+				Change detection
+	}
+	
+	Computer Vision = Perceive + Processing
+	(Eye + Brain)
+	
+	Coursework {
+		Media Coding I		30%		Week 4 to 6
+		Media Coding II		70%		Week 10
+	}
+	
+	
+	What is a Digital Image? {
+		
+		Digital Image {
+			Defined as a grid, as a 2D Function f(x,y);
+				x,y are spatial coordinates of a pixel
+				f: is amplitude of any pairs (x,y) of coordinates
+					Called intensity or grey level at that point
+		}
+	
+		Sampling {
+		
+			Simple Image Formation Model:
+			- Illumination Source (Energy)
+			- Scene
+			- Imaging System
+			- Projection of the scene onto the image plane
+			- Digitized Image
+			
+			Concepts in Simple Image Formation:
+				Scene is continuous space
+				Cannot store continuous data in uncontinuous space
+				Must represent in digitized space
+				Sampling of continuous data
+			
+			Converting light into voltage
+			Sampling at certain points
+			Provides limited number of points in a continuous area
+			
+			Need to quantize image to make image easier to process
+			
+			Number of sensors = How deeply image is quantized
+			
+			Continuous Image projected onto sensor array
+			->
+			Result of image sampling and quantization
+			
+			Increase in Range of Quantization = Increase in Memory
+			
+			+ Sampling = + Quality
+			+ Quantization = + Light Intensity
+				We use 0 to 255 usually
+		}
+	
+	}
+	
+	Different Types of Digital Images {
+		
+		Image Modalities  {
+
+			2D Images
+				Binary Image = Quantized using 1 bit (Mono)
+				Gray Image = Quantized using intensity values
+				Colour Image = Quantized using RGB Colour space (3 Matrices)
+			
+			2.5D Images = Shows Depth and Distance of each point of scene from camera
+			
+			3D Images
+				
+		}
+		
+		
+	}
+	
+	Lecture 2 {
+		
+		Image Processing {
+			
+			Processing = Subclass of signal processing specifically concerned with images
+			
+			Processing Areas:
+			- Compression
+			
+			
+			
+			Compression {
+			
+				Image Coding = Representing images with least information consistent with an acceptable quality
+			
+				Compression Ratio = Uncompressed / Compression
+				
+				Lossy and Lossless {
+					
+					Lossless = Allows original image to be perfectly reconstructed from original data
+						- Decoded data of original
+						- Low compression ratio
+						- Common for texts, executable programs, source code, spreadsheets
+					
+					Lossy = Certain amount of information is discarded
+						- Data is lost and not 100% Originality
+						- High compression ratio
+						- Common for image, video, audio
+						- User perception is main objective
+						
+				}
+				
+				Why do we code images? {
+					- Saves storage
+					- Less bandwidth
+					- Faster speed
+					- Less consumed power
+					- Smaller equipment
+					
+					+ Storage Capacity
+					+ Transmission Capacity
+					
+					Enables technology for image storage and distribution
+					
+					
+				}
+				
+				Standards {
+					Image Coding needs a standard to decode
+					
+					Criteria:
+					- Ratio
+					- Complexity (Speed)
+					- Implementation Difficulty
+					- Progressive Decoding
+					- Scalability
+					
+					Decompression > Compression
+					- Decompression is done more than once
+				}
+				
+				System {
+					Image -> Compressor = Compressed Image
+					Compressed Image -> Decoder = Image
+					
+					Compressed = {Mapper, Quantizer, Symbol Coder}
+					Decoder = {Symbol Coder, Inverse Mapper}
+					
+					
+				}
+				
+			}
+			
+			Enhancement {
+				
+				Aims: 
+					1. Improve human perception of image
+					2. Provide better input for other automated image processing techniques
+					3. Reduce Noise in Image
+				
+				Examples:
+				- Intensity Correction
+				- Improve Sharpness
+				- Image Restoration
+				- Reduce Noise
+				
+			}
+			
+			Understanding / Computer Vision {
+				Definition = Interprets regions and objects in image to figure out what actually happens in the image
+				- Understands content of image
+				
+				Computer Vision = Enables computers to see and understand images in the same way that human vision does and provide appropriate output
+				
+			}
+			
+		}
+		
+	}
+}
+
+Key Points {
+	Intro
+	Digital Image Representation
+	Sampling
+	Image Coding/Compression
+	Image Enhancement
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

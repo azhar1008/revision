@@ -1,0 +1,94 @@
+366 Week 2
+
+Lecture 1 {
+	
+	Fundamentals of a Digital Image {
+		An Image is represented by a grid of pictures and elements called pixels
+		Pixels arranged in columns and rows
+	}
+	
+	Image Types {
+	
+		RGB = Sum of colour intensities of Red, Green and Blue
+			Max intensity is White
+		
+		Y Cb Cr = Y is luminances, Cb and Cr are colour vectors
+		
+		HSV = Hue, Saturation and Brightness
+		
+		Can be converted easily
+		
+	}
+	
+	Processing Images {
+		
+		g(x,y) = T[f(x,y)]
+		
+		Spatial Domain
+			Image Plane itself
+			Processing in the spatial domain deals with direct manipulation of the image pixels
+			We consider the intesity values of the pixel value
+			
+			Spatial Filtering :
+				We consider the intesity values of the neighbouring values
+			
+			
+			
+		Frequency Domain
+			
+	
+	}
+	
+	Basic Intensity Transformations {
+		
+		g(x,y) = T[f(x,y)]
+		
+		Image Negatives = g(x,y) = L - 1 - f(x,y)
+		
+		Log Transformation = Expands dark pixel whilst compressing white pixels
+							- Increases dynamic range of low intensities
+							- Dynamic range refers to the ratio of max and min intesity values
+							
+							- Mainly used to increase detail in images with a higher intensity than capturable
+							
+							g(x,y) = c log(1 + f(x,y))
+							c is constant and f(x,y) >= 0
+							
+		Power law (Gamma) transformation = g(x,y) = c f(x,y) ^ γ
+		
+		Piecewise Linear Transformation = Take 4 values from input
+											Map values
+										
+											(Cubic Bezier Concept?)
+										
+										 Stretches Contrast
+		
+		Bit Plane Slicing = Cut a greyscale image into levels of darkness
+							
+							Value & 11000000, Value & 110000, Value & 1100, Value & 11
+							
+							Focus on MSB
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	Image Histogram {
+	
+	}
+}
+
+CW {
+	Implement Piecewise Linear Transformation
+}

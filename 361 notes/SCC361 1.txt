@@ -1,0 +1,225 @@
+SCC361 Week 1 
+
+Lecture 1 {
+	
+	Learning Outcomes {
+		Understand AI Concepts, Applications and Trends
+		Understand Machine Learning terms
+		Train Machine Learning Models for specific tasks
+		Learn and implement simple AI based systems
+		Learn how to evaluate the performance of AI systems
+	}
+	
+	
+}
+
+Introduction to AI and ML {
+	
+	AI Overview 
+	
+	Definition
+	
+	Goals of AI
+	
+	AI and Society
+	
+	NLP {
+	
+		Text that combines meaning with letters
+		
+		Examples:
+		- Web search engine
+		- Text classification
+		- Sorting algorithms
+		- Spam filtering
+		- Machine translation
+		- Question answering
+		- Recommender Systems
+		
+		Speech Technologies:
+		- Siri, Alexa, Cortana, Google Assistant
+		- Automatic Speech Recognition
+		- Dialogue Systems
+		
+	}
+	
+	Explainability = Demonstrate how an AI came to a solution
+	Uncertainty/Robustness = How confident is the AI with its decision
+	
+	
+	
+	
+	History of AI {
+		
+		Early Days
+		------------------------------------
+		1943: McCulloch & Pitts
+		Boolean Circuit Model of Brain
+		
+		1950: Turing
+		Computing Machinery and Intelligence
+		
+		
+		Excitement
+		------------------------------------
+		1950s: Early AI Programs
+		Samuel's checkers program
+		Newell & Simon's Logic Theorist
+		Gelernter's Geometry Engine
+		
+		1956: Darthmouth Meeting
+		Artificial Intelligence adopted
+		
+		1965: Robinson
+		Complete algorithm for logical reasoning
+		
+		
+		Knowledge-based approaches
+		------------------------------------
+		1969-79: Early development
+		
+		1980-88: Expert systems
+		Industry Booms
+		
+		1988-93: Expert systems industry bursts
+		AI Winter
+		
+		Statistical Approaches + Subfield Expertise
+		------------------------------------
+		Resurgence of probability, focus on uncertain
+		General increase in technical depth
+		Agents and machine learning systems
+		AI Spring?
+		
+		Excitement (Now)
+		------------------------------------
+		Big data, big compute, deep neural networks
+		Some re-unification of subfields
+		AI used in many industries
+		
+	}
+	
+	The Thinking Machine {
+		
+		What is AI? {
+		
+			Approach 1: Thinking like a human
+			Approach 2: Acting like a human
+				Mimicing human behaviour
+			Approach 3: Thinking rationally
+			Approach 4: Acting rationally
+			
+			
+						 Human				 Rational
+						+-------------------------------------
+			Thinking	|Systems that		| Systems that
+						|think like humans	| think rationally
+						|-------------------|-----------------
+			Acting		|Systems that		| Systems that
+						|act like humans	| act rationally
+						+-------------------------------------
+			
+			What is an Agent? {
+				
+				Definition = Something that acts within an environment
+				
+				Acts intelligently if:
+				- Action is appropriate
+				- Flexible to change
+				- Learns from experience
+				- Makes appropriate choices
+				
+				Computational Agent: Agent whose decisions and actions can be explained in terms of computation
+				
+				Rational Agent: Acts to achieve best outcome
+			}
+			
+			AI studies the synthesis and analysis of computational agents that act intelligently
+		}
+	}
+	
+	Goals of AI {
+	
+		Scientific Goal = Understanding principles of intelligent behaviour
+		Engineering Goal = Concerned with constructing intelligent agents
+		
+		Business Benefits:
+		- Workflow automation
+		- Enhance creative tasks
+		- Increased accuracy
+		- Better predictions
+		
+		Social Benefits:
+		- Healthcare
+		- Smart cities, transport, security
+		- Forecasts and predictions
+		- Agriculture
+		- Overall Lifestyle
+		
+	}
+	
+	Risks and Challenges {
+		
+		Safety and Security
+		Trust and Social Manipulation
+		Explainable AI
+		Possible Job Loss
+	
+	}
+	
+	Ethical Concerns {
+		
+		Accountability
+		Accuracy, Bias, Privacy and Inequality
+		AI learns from data from humans, which may encode prejudice
+		Technological Social Responsibility
+		
+	}
+	
+	Machine Learning {
+		
+		AI systems were mostly rule-based
+		Machine Learning drives AI
+		
+		Machine Learning = Field of study that gives computers the ability to learn, without being explicitly programmed
+		
+		Declarative Knowledge = Accumulation of old facts
+		Imperative Knowledge = Deduce new facts from old facts
+		
+		Supervised Learning = Tell computer how to learn
+			- Classification = Relationships and Categories
+			- Regression = Predicting
+			Mapping input to an output
+			
+			
+		Unsupervised Learning = 
+			- Clustering = Inherent Grouping within data
+			- Association = 
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
